@@ -1,0 +1,9 @@
+const firebaseConfig = {
+  apiKey: "AIzaSyCZzhOEwXCgTeo6LmOpMWr-StJw5neTe7I",
+  authDomain: "contact-cb5be.firebaseapp.com",
+  projectId: "contact-cb5be",
+  storageBucket: "contact-cb5be.appspot.com",
+  messagingSenderId: "882686001753",
+  appId: "1:882686001753:web:56ecf68597c47ff1aa2748",
+  measurementId: "G-97D9Q5W1PM"
+};
