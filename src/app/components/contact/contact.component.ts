@@ -8,6 +8,8 @@ import { MailService } from 'src/app/_services/mail.service';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit{
+  contact: Boolean = true
+  bye: Boolean = false
   mails : Mail[] = []
 
 
@@ -34,6 +36,9 @@ username = ""
         console.log(mail)
         this.mails.push(mail)
       });
+
+    this.contact = false
+    this.bye = true
   }
 
 }

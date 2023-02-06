@@ -1,66 +1,130 @@
-.masthead {
-    width: 100%;
-    height: 76vh;
-    padding-top: 6rem;
-    padding-bottom: 8rem;
-    background: url("https://i.postimg.cc/wvh3PMkK/bgr.jpg");
-    /* background: url("https://i.postimg.cc/xTtfvNJz/Tsepang1.png"); */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    display: flex;
-    overflow: scroll;
-    /* align-items: center; */
-    /* justify-content: center; */
-    font-family: cursive;
+@media screen and (max-width: 1600px){
+    .masthead {
+        width: 100%;
+        height: 72vh;
+        padding-top: 5rem;
+        padding-bottom: 9rem;
+        background: url("https://i.postimg.cc/wvh3PMkK/bgr.jpg");
+        /* background: url("https://i.postimg.cc/xTtfvNJz/Tsepang1.png"); */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        display: flex;
+        overflow: scroll;
+        /* align-items: center; */
+        /* justify-content: center; */
+        font-family: cursive;
+    }
+    
+    .masthead::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .container {
+        display: flex;
+        margin-top: 80px;
+    }
+    
+    .image {
+        width: 400px;
+        height: 500px;
+        background: black;
+        margin-left: 20px;
+        margin-top: 60px;
+    }
+    
+    .image img {
+        width: 400px;
+        height: 500px;
+    }
+    
+    .info {
+        padding-left: 25px;
+        width: 800px;
+        height: 500px;
+        margin-left: 20px;
+        margin-top: 60px;
+        color: aliceblue;
+        justify-content: center;
+        display: inline;
+    }
+    
+    .info h2 {
+        margin-left: 300px;
+    }
+    h4 {
+        font-size: x-large;
+    }
+    
+     p {
+        font-size: larger;
+     }
+    
 }
 
-.masthead::-webkit-scrollbar {
-    display: none;
-}
-
-.container {
-    display: flex;
-    margin-top: 80px;
-}
-
-.image {
-    width: 400px;
-    height: 500px;
-    background: black;
-    margin-left: 20px;
-    margin-top: 60px;
-}
-
-.image img {
-    width: 400px;
-    height: 500px;
-}
-
-.info {
-    padding-left: 25px;
-    /* background: black; */
-    width: 800px;
-    height: 500px;
-    margin-left: 20px;
-    margin-top: 60px;
-    color: aliceblue;
-    justify-content: center;
-    display: inline;
-}
-
-.info h2 {
-    margin-left: 300px;
-}
-h4 {
-    font-size: x-large;
-}
-
- p {
-    font-size: larger;
+ @media screen and (max-width: 1440px) {
+    .masthead {
+        width: 100%;
+        height: 74vh;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        background: url("https://i.postimg.cc/wvh3PMkK/bgr.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        display: flex;
+        overflow: scroll;
+        font-family: cursive;
+    }
+    
+    .masthead::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .container {
+        display: flex;
+        margin-top: 80px;
+    }
+    
+    .image {
+        width: 400px;
+        height: 500px;
+        background: black;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    
+    .image img {
+        width: 400px;
+        height: 500px;
+    }
+    
+    .info {
+        padding-left: 25px;
+        /* background: black; */
+        width: 800px;
+        height: 500px;
+        margin-left: 20px;
+        margin-top: 50px;
+        color: aliceblue;
+        justify-content: center;
+        display: inline;
+    }
+    
+    .info h2 {
+        margin-left: 300px;
+    }
+    h4 {
+        font-size: x-large;
+    }
+    
+     p {
+        font-size: larger;
+     }
+    
  }
-
 
 
 @media screen and (max-width: 600px) {
