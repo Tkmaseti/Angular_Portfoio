@@ -1,26 +1,19 @@
-<!-- The video -->
-<!-- <video autoplay muted loop id="myVideo">
-    <source src="assets\bgvid.mp4" type="video/mp4">
-</video>
-    -->
 <div class="masthead">
     <div class="container">
         <div class="form" *ngIf="contact">
             <div class="message">
-                <h2>Hey How are you? Contact me I would like to hear from you.</h2>
+                <h2>Hey contact me I would like to hear from you.</h2>
             </div>
             <div class="form-card">
                 <div class="form-grp">
-                    <!-- <label for="name">Name</label> -->
                     <input type="text" placeholder="Fullname" [(ngModel)]="username">
                 </div>
                 <div class="form-grp">
-                    <!-- <label for="name">Name</label>/ -->
+
                     <input type="email" placeholder="Email" [(ngModel)]="usermail">
                 </div>
                 <div class="form-grp">
-                    <!-- <label for="name">Name</label> -->
-                    <!-- <input type="text"> -->
+
                     <textarea name="" id="txt" placeholder="Message" cols="18" rows="4" [(ngModel)]="usermessage"></textarea>
                 </div>
                 <button (click)="send()">Submit</button>
@@ -30,7 +23,6 @@
             <div class="container">
                 <p class="typed">Thank your for contacting me i promise to get back  to you soon as possible. Bye :)</p>
               </div>
-            <!-- <h1>Thank your for contacting me i promise to <br>get back  to you soon as possible. <br> Bye :)</h1> -->
         </div>    
     </div>
 </div>
